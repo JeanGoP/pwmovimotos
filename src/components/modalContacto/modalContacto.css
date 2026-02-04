@@ -1,0 +1,33 @@
+.btn__modalContacto{
+    width: 100%;
+    height: 35px;
+    background-color:#BB1622;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #BB1622;
+}
+.btn__modalContacto:hover{
+
+    background-color:#6e0f15;
+    border-color: #BB1622;
+}
+.input_text__modalContacto{
+    height: 35px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #222222;
+}
+.modalcontent__modalContacto{
+    padding: 10px;
+}
+.titulo__modal__contacto{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+.modalcontacto_header{
+    border-bottom: 1px solid #222222 !important;
+    justify-content: center;
+    padding: 0px;
+}

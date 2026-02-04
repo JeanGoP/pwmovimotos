@@ -1,0 +1,86 @@
+.apache-wrapper {
+    background: #2b5c96;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .apache-title {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+  
+  .apache-compare-container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: 420px;
+    margin: 0 auto;
+    overflow: hidden;
+    user-select: none;
+    touch-action: none;
+  }
+  
+  .apache-image {
+    position: absolute;
+    inset: 0;
+  }
+  
+  .apache-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .apache-base {
+    width: 100%;
+  }
+  
+  .apache-overlay {
+    overflow: hidden;
+  }
+  
+  .apache-slider {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    cursor: ns-resize;
+    z-index: 10;
+  }
+  
+  .apache-slider-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2b5c96;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .apache-base {
+    z-index: 1;
+  }
+  
+  .apache-overlay {
+    z-index: 2;
+    background: #2b5c96;
+  }
+  .apache-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #2b5c96; 
+  }
+  .apache-compare-container {
+    background: #2b5c96;
+  }

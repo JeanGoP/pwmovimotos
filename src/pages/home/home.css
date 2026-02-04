@@ -1,0 +1,373 @@
+/* ============================
+   CONTENEDOR PRINCIPAL
+============================ */
+.contenedor__imagen__HomePulsar {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;     
+  gap: 20px;                
+}
+
+
+/* ============================
+   TEXTO
+============================ */
+.contenedor__texto__HomePulsar p {
+  margin: 0;
+  line-height: 1.1;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+
+  font-family: "Mukta Mahee", Sans-serif;
+  font-size: clamp(1.7rem, 4vw, 5.5rem)!important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.3px;
+  color: #FFFFFF;
+}
+
+
+/* ============================
+   IMÁGENES
+============================ */
+.contenedor__images__HomePulsar {
+  display: flex;
+  gap: 20px;
+}
+
+.contenedor__images__HomePulsar img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* ============================
+   BOTÓN
+============================ */
+.btn__imagen__HomePulsar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn__HomePulsar {
+  height: 60px;
+  width: 150px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  background-color: #FF6600;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border-radius: 6px;
+}
+
+.btn__HomePulsar:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+  background-color: #d63201d4;
+}
+
+
+/* ============================
+   TABLETS
+============================ */
+@media (max-width: 768px) {
+  .contenedor__imagen__HomePulsar {
+    height: 60vh;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+
+  .contenedor__texto__HomePulsar p {
+    font-size: 2rem;
+  }
+
+  .contenedor__images__HomePulsar img {
+    width: 130px;
+  }
+
+  .btn__HomePulsar {
+    width: 140px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+}
+
+.contemotocicle{
+  padding-top: 300px;
+}
+/* ============================
+   MÓVILES
+============================ */
+@media (max-width: 480px) {
+  .contenedor__imagen__HomePulsar {
+    height: 50vh;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .contenedor__texto__HomePulsar p {
+    font-size: 1.4rem;
+  }
+
+  .contenedor__images__HomePulsar img {
+    width: 90px;
+  }
+
+  .btn__HomePulsar {
+    width: 120px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+}
+
+.tecnologia__home {
+  /* color: white; */
+
+  font-size: 40px;
+  font-family: 'Bebas Neue', Sans-serif;
+}
+.NuestraMarca__Titulo__Home {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.pioneros__home {
+  /* color: white; */
+  font-size: 25px;
+  font-family: 'Roboto', Sans-serif;
+}
+.EspecificacionesTecnicas__Titulo__Home {
+  /* color: white; */
+  font-size: clamp(1rem, 5vw, 2.8rem);
+  font-weight: 100;
+  font-family: 'Bebas Neue', Sans-serif;
+}
+
+
+.TituloNuestraMarca {
+  font-size: clamp(1rem, 5vw, 2.5rem);
+  font-weight: bold;
+  font-family: "Monrope", Sans-serif;
+  color: #FFFFFF;
+  padding-top: 15px;
+}
+
+.NuestraAliado__Titulo__Home {
+  font-family: "Roboto", Sans-serif;
+  /* font-size: 40px; */
+  font-size: clamp(1.7rem, 5vw, 3rem);
+  font-weight: 600;
+}
+
+.carrusel__aliados {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.carrusel__aliados__img {
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0px;
+}
+/* Mover los botones hacia afuera */
+/* ======== CONTROLES PERSONALIZADOS CON SVG ======== */
+
+#carruselAliados .carousel-control-prev,
+#carruselAliados .carousel-control-next {
+  width: 55px;
+  opacity: 1;
+  filter: none;
+}
+
+/* Mover fuera en desktop */
+#carruselAliados .carousel-control-prev { left: -70px; }
+#carruselAliados .carousel-control-next { right: -70px; }
+
+/* ICONOS SVG MODERNOS */
+#carruselAliados .carousel-control-prev-icon,
+#carruselAliados .carousel-control-next-icon {
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+
+}
+
+/* SVG flecha izquierda */
+#carruselAliados .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='black' stroke-width='5' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M15 4 L7 12 L15 20'/></svg>");
+  
+
+}
+
+/* SVG flecha derecha */
+#carruselAliados .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='black' stroke-width='5' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M9 4 L17 12 L9 20'/></svg>");
+}
+
+/* ======== RESPONSIVE ======== */
+
+/* Tablets */
+@media (max-width: 992px) {
+  #carruselAliados .carousel-control-prev { left: -40px; }
+  #carruselAliados .carousel-control-next { right: -40px; }
+}
+.contenidoCatalogoMoto{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media (min-width: 1000px) {
+  .contenidoCatalogoMoto{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+/* Móviles medianos */
+@media (max-width: 768px) {
+  #carruselAliados .carousel-control-prev { left: -10px; }
+  #carruselAliados .carousel-control-next { right: -10px; }
+
+  #carruselAliados .carousel-control-prev-icon,
+  #carruselAliados .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 24px 24px;
+  }
+
+  .contenidoCatalogoMoto{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  #carruselAliados .carousel-control-prev { left: 5px; }
+  #carruselAliados .carousel-control-next { right: 5px; }
+
+  #carruselAliados .carousel-control-prev-icon,
+  #carruselAliados .carousel-control-next-icon {
+    width: 26px;
+    height: 26px;
+    border-width: 2px;
+    background-size: 20px 20px;
+  }
+}
+
+
+
+.conte--carousel{
+  --bs-gutter-x:0 !important;
+}
+
+.FranjaClientes{
+background: #FFFFFF;
+}
+.ultimoArticulos{
+  font-family: "Mukta Mahee", Sans-serif;
+  font-size:  clamp(1.8rem, 6vw, 3.5rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+    color: #000000;
+}
+.btn-todoBlog{
+  background-color: #FF6600;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    height: 70px;
+    width: 250px;
+}
+
+
+
+.labelFranja{
+  font-family: "Mukta Mahee", Sans-serif;
+    font-size: clamp(1.1rem, 4vw, 1.8rem)!important;
+    font-weight: 600;
+    color: #fff;
+
+}
+.contenidoFranjaDiv{
+  border-left: 1px solid #000;
+
+}
+
+.marcauteco-card {
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  height: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Imagen */
+.marcauteco-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay oscuro */
+.marcauteco-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.7)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Título */
+.marcauteco-card__title {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+/* Botón */
+.marcauteco-card__button {
+  background-color: #ff6a00;
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.marcauteco-card__button:hover {
+  background-color: #e85d00;
+  transform: scale(1.05);
+}
