@@ -107,7 +107,7 @@ function Footer() {
           <div className="row" style={{textAlign:'center'}}>
 
             <div className="col-lg-12 col-md-12 col-sm-12">
-              <p style={{ fontSize: '14px' }}>Copyright © 2023. DISTRIMOTOS DE COLOMBIA S.A.S All rights reserved | Desing By @HakuCreativo SAS</p>
+              <p style={{ fontSize: '14px' }}>Copyright © 2023. DISTRIMOTOS DE COLOMBIA S.A.S All rights reserved | Develop By @Sidecil SAS</p>
             </div>
 
           </div>
